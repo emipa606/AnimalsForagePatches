@@ -1,18 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Patch>
   <Operation Class="PatchOperationConditional">
-    <xpath>/Defs/ThingDef[defName="AEXP_Panda"]</xpath>
+    <xpath>/Defs/ThingDef[defName="SpottedHyena"]</xpath>
     <success>Always</success>
     <match Class="PatchOperationConditional">
-      <xpath>/Defs/ThingDef[defName="Bamboo"]</xpath>
+      <xpath>/Defs/ThingDef[defName="BoneItem"]</xpath>
       <success>Always</success>
       <match Class="PatchOperationAdd">
-        <xpath>/Defs/ThingDef[defName="AEXP_Panda"]</xpath>
+        <xpath>/Defs/ThingDef[defName="SpottedHyena"]</xpath>
         <value>
           <comps>
             <li Class="AnimalBehaviours.CompProperties_DigWhenHungry">
-              <customThingToDig>Bamboo</customThingToDig>
-              <customAmountToDig>10</customAmountToDig>
+              <customThingToDig>BoneItem</customThingToDig>
+              <customAmountToDig>5</customAmountToDig>
             </li>
           </comps>
         </value>
@@ -20,13 +20,13 @@
     </match>
   </Operation>
   <Operation Class="PatchOperationConditional">
-    <xpath>/Defs/ThingDef[defName="AEXP_TasmanianDevil"]</xpath>
+    <xpath>/Defs/ThingDef[defName="StripedHyena"]</xpath>
     <success>Always</success>
     <match Class="PatchOperationConditional">
       <xpath>/Defs/ThingDef[defName="BoneItem"]</xpath>
       <success>Always</success>
       <match Class="PatchOperationAdd">
-        <xpath>/Defs/ThingDef[defName="AEXP_TasmanianDevil"]</xpath>
+        <xpath>/Defs/ThingDef[defName="StripedHyena"]</xpath>
         <value>
           <comps>
             <li Class="AnimalBehaviours.CompProperties_DigWhenHungry">

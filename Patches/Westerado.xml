@@ -15,4 +15,23 @@
       </value>
     </match>
   </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThingDef[defName="Coyote_Westerado"]</xpath>
+    <success>Always</success>
+    <match Class="PatchOperationConditional">
+      <xpath>/Defs/ThingDef[defName="BoneItem"]</xpath>
+      <success>Always</success>
+      <match Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="Coyote_Westerado"]</xpath>
+        <value>
+          <comps>
+            <li Class="AnimalBehaviours.CompProperties_DigWhenHungry">
+              <customThingToDig>BoneItem</customThingToDig>
+              <customAmountToDig>5</customAmountToDig>
+            </li>
+          </comps>
+        </value>
+      </match>
+    </match>
+  </Operation>
 </Patch>

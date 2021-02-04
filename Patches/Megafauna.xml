@@ -58,4 +58,38 @@
       </value>
     </match>
   </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThingDef[defName="Daeodon"]</xpath>
+    <success>Always</success>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThingDef[defName="Daeodon"]</xpath>
+      <value>
+        <comps>
+          <li Class="AnimalBehaviours.CompProperties_DigWhenHungry">
+            <customThingToDig>RawFungus</customThingToDig>
+            <customAmountToDig>10</customAmountToDig>
+          </li>
+        </comps>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThingDef[defName="Dinocrocuta"]</xpath>
+    <success>Always</success>
+    <match Class="PatchOperationConditional">
+      <xpath>/Defs/ThingDef[defName="BoneItem"]</xpath>
+      <success>Always</success>
+      <match Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="Dinocrocuta"]</xpath>
+        <value>
+          <comps>
+            <li Class="AnimalBehaviours.CompProperties_DigWhenHungry">
+              <customThingToDig>BoneItem</customThingToDig>
+              <customAmountToDig>5</customAmountToDig>
+            </li>
+          </comps>
+        </value>
+      </match>
+    </match>
+  </Operation>
 </Patch>
