@@ -18,11 +18,11 @@
     <li>Simmin.AnimalsForage</li>
   </loadAfter>
   <description>[img]https://i.imgur.com/WAEzk68.png[/img]
-A collection of patches to add foraging setting for animals from other mods to the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2381741432]Animals Forage[/url] mod.
+A collection of patches for [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2381741432]Animals Forage[/url] to add foraging for animals from other mods.
 
 Foraging resources and animals supported:
 
-Fish
+[h3]Fish[/h3]
 [list]
 [*]Enhydriodon - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1055485938]Megafauna[/url]
 [*]Palaeeudyptes - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1055485938]Megafauna[/url]
@@ -32,30 +32,28 @@ Fish
 [*]Otter - [url=https://steamcommunity.com/workshop/filedetails/?id=2013243795]AnimalCollabProj[/url]
 [*]Walrus - [url=https://steamcommunity.com/workshop/filedetails/?id=2013243795]AnimalCollabProj[/url]
 [*]Spotted Seal - [url=https://steamcommunity.com/workshop/filedetails/?id=2013243795]AnimalCollabProj[/url]
+[*]Fisher - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2090705625]Erin's Critter Collection[/url]
 [/list]
-
-Bamboo from [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2007061826]VGP Vegetable Garden[/url]
+[h3]Bamboo from [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2007061826]VGP Vegetable Garden[/url][/h3]
 [list]
 [*]Giant Panda - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2366589898]VAE - Endangered[/url]
 [*]Red Panda - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2260502331]VAE - Temperate Forest[/url]
 [*]Panda - [url=https://steamcommunity.com/workshop/filedetails/?id=2013243795]AnimalCollabProj[/url]
 [*]Red Panda - [url=https://steamcommunity.com/workshop/filedetails/?id=2013243795]AnimalCollabProj[/url]
+[*]Red Panda - [url=https://steamcommunity.com/workshop/filedetails/?id=1970508422]Forest Critters[/url]
 [/list]
-
-Bugs (Insect meat)
+[h3]Bugs (Insect meat)[/h3]
 [list]
 [*]Kiwi - [url=https://steamcommunity.com/workshop/filedetails/?id=2013243795]AnimalCollabProj[/url]
 [*]Silkie Chicken- [url=https://steamcommunity.com/workshop/filedetails/?id=2013243795]AnimalCollabProj[/url]
 [*]Armadillo - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2090705625]Erin's Critter Collection[/url]
 [/list]
-
-Fungus
+[h3]Fungus[/h3]
 [list]
 [*]Peccary - [url=https://steamcommunity.com/workshop/filedetails/?id=2013243795]AnimalCollabProj[/url]
 [*]Giant Boars - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2243330771]LotR - Dwarves[/url]
 [/list]
-
-Berries
+[h3]Berries[/h3]
 [list]
 [*]Black Bear - [url=https://steamcommunity.com/workshop/filedetails/?id=2013243795]AnimalCollabProj[/url]
 [*]Black Bear - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2236973780]Westerado[/url]

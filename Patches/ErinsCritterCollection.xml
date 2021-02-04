@@ -15,4 +15,17 @@
       </value>
     </match>
   </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThingDef[defName="Fisher"]</xpath>
+    <success>Always</success>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThingDef[defName="Fisher"]/comps</xpath>
+      <value>
+        <li Class="AnimalBehaviours.CompProperties_DigWhenHungry">
+          <customThingToDig>AEXP_RawFish</customThingToDig>
+          <customAmountToDig>3</customAmountToDig>
+        </li>
+      </value>
+    </match>
+  </Operation>
 </Patch>
