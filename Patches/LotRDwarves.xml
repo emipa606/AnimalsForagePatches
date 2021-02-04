@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThingDef[defName="LotRD_GiantBoarRace"]</xpath>
+    <success>Always</success>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThingDef[defName="LotRD_GiantBoarRace"]</xpath>
+      <value>
+        <comps>
+          <li Class="AnimalBehaviours.CompProperties_DigWhenHungry">
+            <customThingToDig>RawFungus</customThingToDig>
+            <customAmountToDig>10</customAmountToDig>
+          </li>
+        </comps>
+      </value>
+    </match>
+  </Operation>
+</Patch>
