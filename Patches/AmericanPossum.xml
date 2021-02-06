@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Patch>
   <Operation Class="PatchOperationConditional">
-    <xpath>/Defs/ThingDef[defName="Warg"]</xpath>
+    <xpath>/Defs/ThingDef[defName="TBC_Possum"]</xpath>
     <success>Always</success>
     <match Class="PatchOperationConditional">
       <xpath>/Defs/ThingDef[defName="BoneItem"]</xpath>
       <match Class="PatchOperationConditional">
-        <xpath>/Defs/ThingDef[defName="Warg"]/comps</xpath>
+        <xpath>/Defs/ThingDef[defName="TBC_Possum"]/comps</xpath>
         <match Class="PatchOperationAdd">
-          <xpath>/Defs/ThingDef[defName="Warg"]/comps</xpath>
+          <xpath>/Defs/ThingDef[defName="TBC_Possum"]/comps</xpath>
           <value>
             <li Class="AnimalBehaviours.CompProperties_DigWhenHungry">
               <customThingToDig>BoneItem</customThingToDig>
@@ -17,7 +17,7 @@
           </value>
         </match>
         <nomatch Class="PatchOperationAdd">
-          <xpath>/Defs/ThingDef[defName="Warg"]</xpath>
+          <xpath>/Defs/ThingDef[defName="TBC_Possum"]</xpath>
           <value>
             <comps>
               <li Class="AnimalBehaviours.CompProperties_DigWhenHungry">

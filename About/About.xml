@@ -33,6 +33,8 @@ Foraging resources and animals supported:
 [*]Walrus - [url=https://steamcommunity.com/workshop/filedetails/?id=2013243795]AnimalCollabProj[/url]
 [*]Spotted Seal - [url=https://steamcommunity.com/workshop/filedetails/?id=2013243795]AnimalCollabProj[/url]
 [*]Fisher - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2090705625]Erin's Critter Collection[/url]
+[*]Fisher - [url=https://steamcommunity.com/workshop/filedetails/?id=2013243795]AnimalCollabProj[/url]
+[*]Anaconda - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2188840249]HC_Animal_2[/url]
 [/list]
 [h3]Bamboo from [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2007061826]VGP Vegetable Garden[/url][/h3]
 [list]
@@ -76,7 +78,25 @@ Foraging resources and animals supported:
 [*]Tasmanian Devil - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2000213010]Tasmanian Devils[/url]
 [*]Dinocrocuta - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1055485938]Megafauna[/url]
 [*]Megawolverine - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1895364585]VAE - Tundra[/url]
+[*]American Possum - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2260426720]American Possum[/url]
 [/list]
+[h3]Rat Meat[/h3]
+[list]
+[*]Rattlesnake - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2236973780]Westerado[/url]
+[*]Adders - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1430501911]Infectious Creatures[/url]
+[*]Black Desert Cobras - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1430501911]Infectious Creatures[/url]
+[/list]
+[h3]Josephoartigasia from [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1055485938]Megafauna[/url][/h3]
+[list]
+[*]Titanoboa - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1055485938]Megafauna[/url]
+[/list]
+
+[table]
+	[tr]
+		[td][url=https://invite.gg/Mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
+		[td][url=https://github.com/emipa606/AnimalsForagePatches][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
+	[/tr]
+[/table]
 
 [img]https://i.imgur.com/Rs6T6cr.png[/img]
 [list]
@@ -86,6 +106,5 @@ Foraging resources and animals supported:
 [*] For best support, please use the Discord-channel for error-reporting.
 [*] Do not report errors by making a discussion-thread, I get no notification of that.
 [*] If you have the solution for a problem, please post it to the GitHub repository.
-[/list]
-</description>
+[/list]</description>
 </ModMetaData>

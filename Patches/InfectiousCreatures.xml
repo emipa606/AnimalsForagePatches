@@ -1,26 +1,26 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Patch>
   <Operation Class="PatchOperationConditional">
-    <xpath>/Defs/ThingDef[defName="Armadillo"]</xpath>
+    <xpath>/Defs/ThingDef[defName="Adder"]</xpath>
     <success>Always</success>
     <match Class="PatchOperationConditional">
-      <xpath>/Defs/ThingDef[defName="Armadillo"]/comps</xpath>
+      <xpath>/Defs/ThingDef[defName="Adder"]/comps</xpath>
       <match Class="PatchOperationAdd">
-        <xpath>/Defs/ThingDef[defName="Armadillo"]/comps</xpath>
+        <xpath>/Defs/ThingDef[defName="Adder"]/comps</xpath>
         <value>
           <li Class="AnimalBehaviours.CompProperties_DigWhenHungry">
-            <customThingToDig>Meat_Megaspider</customThingToDig>
-            <customAmountToDig>10</customAmountToDig>
+            <customThingToDig>Meat_Rat</customThingToDig>
+            <customAmountToDig>5</customAmountToDig>
           </li>
         </value>
       </match>
       <nomatch Class="PatchOperationAdd">
-        <xpath>/Defs/ThingDef[defName="Armadillo"]</xpath>
+        <xpath>/Defs/ThingDef[defName="Adder"]</xpath>
         <value>
           <comps>
             <li Class="AnimalBehaviours.CompProperties_DigWhenHungry">
-              <customThingToDig>Meat_Megaspider</customThingToDig>
-              <customAmountToDig>10</customAmountToDig>
+              <customThingToDig>Meat_Rat</customThingToDig>
+              <customAmountToDig>5</customAmountToDig>
             </li>
           </comps>
         </value>
@@ -28,26 +28,26 @@
     </match>
   </Operation>
   <Operation Class="PatchOperationConditional">
-    <xpath>/Defs/ThingDef[defName="Fisher"]</xpath>
+    <xpath>/Defs/ThingDef[defName="BlackDesertCobra"]</xpath>
     <success>Always</success>
     <match Class="PatchOperationConditional">
-      <xpath>/Defs/ThingDef[defName="Fisher"]/comps</xpath>
+      <xpath>/Defs/ThingDef[defName="BlackDesertCobra"]/comps</xpath>
       <match Class="PatchOperationAdd">
-        <xpath>/Defs/ThingDef[defName="Fisher"]/comps</xpath>
+        <xpath>/Defs/ThingDef[defName="BlackDesertCobra"]/comps</xpath>
         <value>
           <li Class="AnimalBehaviours.CompProperties_DigWhenHungry">
-            <customThingToDig>AEXP_RawFish</customThingToDig>
-            <customAmountToDig>3</customAmountToDig>
+            <customThingToDig>Meat_Rat</customThingToDig>
+            <customAmountToDig>5</customAmountToDig>
           </li>
         </value>
       </match>
       <nomatch Class="PatchOperationAdd">
-        <xpath>/Defs/ThingDef[defName="Fisher"]</xpath>
+        <xpath>/Defs/ThingDef[defName="BlackDesertCobra"]</xpath>
         <value>
           <comps>
             <li Class="AnimalBehaviours.CompProperties_DigWhenHungry">
-              <customThingToDig>AEXP_RawFish</customThingToDig>
-              <customAmountToDig>3</customAmountToDig>
+              <customThingToDig>Meat_Rat</customThingToDig>
+              <customAmountToDig>5</customAmountToDig>
             </li>
           </comps>
         </value>
