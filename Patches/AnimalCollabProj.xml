@@ -136,6 +136,33 @@
     </match>
   </Operation>
   <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThingDef[defName="ACPDuckBilledPlatypus"]</xpath>
+    <success>Always</success>
+    <match Class="PatchOperationConditional">
+      <xpath>/Defs/ThingDef[defName="ACPDuckBilledPlatypus"]/comps</xpath>
+      <match Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="ACPDuckBilledPlatypus"]/comps</xpath>
+        <value>
+          <li Class="AnimalBehaviours.CompProperties_DigWhenHungry">
+            <customThingToDig>AEXP_RawFish</customThingToDig>
+            <customAmountToDig>3</customAmountToDig>
+          </li>
+        </value>
+      </match>
+      <nomatch Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="ACPDuckBilledPlatypus"]</xpath>
+        <value>
+          <comps>
+            <li Class="AnimalBehaviours.CompProperties_DigWhenHungry">
+              <customThingToDig>AEXP_RawFish</customThingToDig>
+              <customAmountToDig>3</customAmountToDig>
+            </li>
+          </comps>
+        </value>
+      </nomatch>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
     <xpath>/Defs/ThingDef[defName="ACPPanda"]</xpath>
     <success>Always</success>
     <match Class="PatchOperationConditional">

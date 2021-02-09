@@ -84,4 +84,31 @@
       </nomatch>
     </match>
   </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThingDef[defName="Badger_Westerado"]</xpath>
+    <success>Always</success>
+    <match Class="PatchOperationConditional">
+      <xpath>/Defs/ThingDef[defName="Badger_Westerado"]/comps</xpath>
+      <match Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="Badger_Westerado"]/comps</xpath>
+        <value>
+          <li Class="AnimalBehaviours.CompProperties_DigWhenHungry">
+            <customThingToDig>Meat_Megaspider</customThingToDig>
+            <customAmountToDig>10</customAmountToDig>
+          </li>
+        </value>
+      </match>
+      <nomatch Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="Badger_Westerado"]</xpath>
+        <value>
+          <comps>
+            <li Class="AnimalBehaviours.CompProperties_DigWhenHungry">
+              <customThingToDig>Meat_Megaspider</customThingToDig>
+              <customAmountToDig>10</customAmountToDig>
+            </li>
+          </comps>
+        </value>
+      </nomatch>
+    </match>
+  </Operation>
 </Patch>
