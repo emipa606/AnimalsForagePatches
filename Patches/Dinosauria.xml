@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThingDef[defName="Baryonyx"]</xpath>
+    <success>Always</success>
+    <match Class="PatchOperationConditional">
+      <xpath>/Defs/ThingDef[defName="Baryonyx"]/comps</xpath>
+      <match Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="Baryonyx"]/comps</xpath>
+        <value>
+          <li Class="AnimalBehaviours.CompProperties_DigWhenHungry">
+            <customThingToDig>AEXP_RawFish</customThingToDig>
+            <customAmountToDig>3</customAmountToDig>
+          </li>
+        </value>
+      </match>
+      <nomatch Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="Baryonyx"]</xpath>
+        <value>
+          <comps>
+            <li Class="AnimalBehaviours.CompProperties_DigWhenHungry">
+              <customThingToDig>AEXP_RawFish</customThingToDig>
+              <customAmountToDig>3</customAmountToDig>
+            </li>
+          </comps>
+        </value>
+      </nomatch>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThingDef[defName="Spinosaurus"]</xpath>
+    <success>Always</success>
+    <match Class="PatchOperationConditional">
+      <xpath>/Defs/ThingDef[defName="Spinosaurus"]/comps</xpath>
+      <match Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="Spinosaurus"]/comps</xpath>
+        <value>
+          <li Class="AnimalBehaviours.CompProperties_DigWhenHungry">
+            <customThingToDig>AEXP_RawFish</customThingToDig>
+            <customAmountToDig>3</customAmountToDig>
+          </li>
+        </value>
+      </match>
+      <nomatch Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="Spinosaurus"]</xpath>
+        <value>
+          <comps>
+            <li Class="AnimalBehaviours.CompProperties_DigWhenHungry">
+              <customThingToDig>AEXP_RawFish</customThingToDig>
+              <customAmountToDig>3</customAmountToDig>
+            </li>
+          </comps>
+        </value>
+      </nomatch>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThingDef[defName="Pteranodon"]</xpath>
+    <success>Always</success>
+    <match Class="PatchOperationConditional">
+      <xpath>/Defs/ThingDef[defName="Pteranodon"]/comps</xpath>
+      <match Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="Pteranodon"]/comps</xpath>
+        <value>
+          <li Class="AnimalBehaviours.CompProperties_DigWhenHungry">
+            <customThingToDig>AEXP_RawFish</customThingToDig>
+            <customAmountToDig>3</customAmountToDig>
+          </li>
+        </value>
+      </match>
+      <nomatch Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="Pteranodon"]</xpath>
+        <value>
+          <comps>
+            <li Class="AnimalBehaviours.CompProperties_DigWhenHungry">
+              <customThingToDig>AEXP_RawFish</customThingToDig>
+              <customAmountToDig>3</customAmountToDig>
+            </li>
+          </comps>
+        </value>
+      </nomatch>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThingDef[defName="Deinocheirus"]</xpath>
+    <success>Always</success>
+    <match Class="PatchOperationConditional">
+      <xpath>/Defs/ThingDef[defName="Deinocheirus"]/comps</xpath>
+      <match Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="Deinocheirus"]/comps</xpath>
+        <value>
+          <li Class="AnimalBehaviours.CompProperties_DigWhenHungry">
+            <customThingToDig>AEXP_RawFish</customThingToDig>
+            <customAmountToDig>3</customAmountToDig>
+          </li>
+        </value>
+      </match>
+      <nomatch Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="Deinocheirus"]</xpath>
+        <value>
+          <comps>
+            <li Class="AnimalBehaviours.CompProperties_DigWhenHungry">
+              <customThingToDig>AEXP_RawFish</customThingToDig>
+              <customAmountToDig>3</customAmountToDig>
+            </li>
+          </comps>
+        </value>
+      </nomatch>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThingDef[defName="Quetzalcoatlus"]</xpath>
+    <success>Always</success>
+    <match Class="PatchOperationConditional">
+      <xpath>/Defs/ThingDef[defName="BoneItem"]</xpath>
+      <match Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Quetzalcoatlus"]/comps</xpath>
+        <match Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Quetzalcoatlus"]/comps</xpath>
+          <value>
+            <li Class="AnimalBehaviours.CompProperties_DigWhenHungry">
+              <customThingToDig>BoneItem</customThingToDig>
+              <customAmountToDig>5</customAmountToDig>
+            </li>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Quetzalcoatlus"]</xpath>
+          <value>
+            <comps>
+              <li Class="AnimalBehaviours.CompProperties_DigWhenHungry">
+                <customThingToDig>BoneItem</customThingToDig>
+                <customAmountToDig>5</customAmountToDig>
+              </li>
+            </comps>
+          </value>
+        </nomatch>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThingDef[defName="Carnotaurus"]</xpath>
+    <success>Always</success>
+    <match Class="PatchOperationConditional">
+      <xpath>/Defs/ThingDef[defName="BoneItem"]</xpath>
+      <match Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Carnotaurus"]/comps</xpath>
+        <match Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Carnotaurus"]/comps</xpath>
+          <value>
+            <li Class="AnimalBehaviours.CompProperties_DigWhenHungry">
+              <customThingToDig>BoneItem</customThingToDig>
+              <customAmountToDig>5</customAmountToDig>
+            </li>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Carnotaurus"]</xpath>
+          <value>
+            <comps>
+              <li Class="AnimalBehaviours.CompProperties_DigWhenHungry">
+                <customThingToDig>BoneItem</customThingToDig>
+                <customAmountToDig>5</customAmountToDig>
+              </li>
+            </comps>
+          </value>
+        </nomatch>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThingDef[defName="TyrannosaurusRex"]</xpath>
+    <success>Always</success>
+    <match Class="PatchOperationConditional">
+      <xpath>/Defs/ThingDef[defName="BoneItem"]</xpath>
+      <match Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="TyrannosaurusRex"]/comps</xpath>
+        <match Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="TyrannosaurusRex"]/comps</xpath>
+          <value>
+            <li Class="AnimalBehaviours.CompProperties_DigWhenHungry">
+              <customThingToDig>BoneItem</customThingToDig>
+              <customAmountToDig>5</customAmountToDig>
+            </li>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="TyrannosaurusRex"]</xpath>
+          <value>
+            <comps>
+              <li Class="AnimalBehaviours.CompProperties_DigWhenHungry">
+                <customThingToDig>BoneItem</customThingToDig>
+                <customAmountToDig>5</customAmountToDig>
+              </li>
+            </comps>
+          </value>
+        </nomatch>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThingDef[defName="Yutyrannus"]</xpath>
+    <success>Always</success>
+    <match Class="PatchOperationConditional">
+      <xpath>/Defs/ThingDef[defName="BoneItem"]</xpath>
+      <match Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Yutyrannus"]/comps</xpath>
+        <match Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Yutyrannus"]/comps</xpath>
+          <value>
+            <li Class="AnimalBehaviours.CompProperties_DigWhenHungry">
+              <customThingToDig>BoneItem</customThingToDig>
+              <customAmountToDig>5</customAmountToDig>
+            </li>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Yutyrannus"]</xpath>
+          <value>
+            <comps>
+              <li Class="AnimalBehaviours.CompProperties_DigWhenHungry">
+                <customThingToDig>BoneItem</customThingToDig>
+                <customAmountToDig>5</customAmountToDig>
+              </li>
+            </comps>
+          </value>
+        </nomatch>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThingDef[defName="Allosaurus"]</xpath>
+    <success>Always</success>
+    <match Class="PatchOperationConditional">
+      <xpath>/Defs/ThingDef[defName="BoneItem"]</xpath>
+      <match Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Allosaurus"]/comps</xpath>
+        <match Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Allosaurus"]/comps</xpath>
+          <value>
+            <li Class="AnimalBehaviours.CompProperties_DigWhenHungry">
+              <customThingToDig>BoneItem</customThingToDig>
+              <customAmountToDig>5</customAmountToDig>
+            </li>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Allosaurus"]</xpath>
+          <value>
+            <comps>
+              <li Class="AnimalBehaviours.CompProperties_DigWhenHungry">
+                <customThingToDig>BoneItem</customThingToDig>
+                <customAmountToDig>5</customAmountToDig>
+              </li>
+            </comps>
+          </value>
+        </nomatch>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThingDef[defName="Compsognathus"]</xpath>
+    <success>Always</success>
+    <match Class="PatchOperationConditional">
+      <xpath>/Defs/ThingDef[defName="Compsognathus"]/comps</xpath>
+      <match Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="Compsognathus"]/comps</xpath>
+        <value>
+          <li Class="AnimalBehaviours.CompProperties_DigWhenHungry">
+            <customThingToDig>Meat_Megaspider</customThingToDig>
+            <customAmountToDig>10</customAmountToDig>
+          </li>
+        </value>
+      </match>
+      <nomatch Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="Compsognathus"]</xpath>
+        <value>
+          <comps>
+            <li Class="AnimalBehaviours.CompProperties_DigWhenHungry">
+              <customThingToDig>Meat_Megaspider</customThingToDig>
+              <customAmountToDig>10</customAmountToDig>
+            </li>
+          </comps>
+        </value>
+      </nomatch>
+    </match>
+  </Operation>
+</Patch>
