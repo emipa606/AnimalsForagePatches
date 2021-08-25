@@ -12,7 +12,7 @@ Foraging resources and animals supported:
 
 - Enhydriodon, Palaeeudyptes, Gomphotaria - https://steamcommunity.com/sharedfiles/filedetails/?id=1055485938]Megafauna
 - Penguin, Fishercat, Otter, Walrus, Spotted Seal, Fisher - https://steamcommunity.com/workshop/filedetails/?id=2208467668]AnimalCollabProj
-- Fisher - https://steamcommunity.com/sharedfiles/filedetails/?id=2090705625]Erin&apos;s Critter Collection
+- Fisher - https://steamcommunity.com/sharedfiles/filedetails/?id=2090705625]Erin's Critter Collection
 - Anaconda - https://steamcommunity.com/sharedfiles/filedetails/?id=2188840249]HC_Animal_2
 - Crocodile, Alligator - https://steamcommunity.com/sharedfiles/filedetails/?id=2207620932]HC_Animal_4
 - Mud Snake - https://steamcommunity.com/workshop/filedetails/?id=2070686241]Legacy Ark
@@ -37,7 +37,7 @@ Foraging resources and animals supported:
 
 
 - Kiwi, Silkie Chicken, Duck-billed Platypus - https://steamcommunity.com/workshop/filedetails/?id=2208467668]AnimalCollabProj
-- Armadillo, Hedgehog - https://steamcommunity.com/sharedfiles/filedetails/?id=2090705625]Erin&apos;s Critter Collection
+- Armadillo, Hedgehog - https://steamcommunity.com/sharedfiles/filedetails/?id=2090705625]Erin's Critter Collection
 - Jungle Fowl - https://steamcommunity.com/workshop/filedetails/?id=2028973691]Tropi[CKAPP] Rainforest Mod
 - Badger, Green Snake - https://steamcommunity.com/workshop/filedetails/?id=2070686241]Legacy Ark
 - Badger - https://steamcommunity.com/sharedfiles/filedetails/?id=2236973780]Westerado
@@ -128,5 +128,6 @@ Foraging resources and animals supported:
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
+
 
 
