@@ -270,4 +270,238 @@
       </nomatch>
     </match>
   </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThingDef[defName="BerkshirePig"]</xpath>
+    <success>Always</success>
+    <match Class="PatchOperationConditional">
+      <xpath>/Defs/ThingDef[defName="BerkshirePig"]/comps</xpath>
+      <match Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="BerkshirePig"]/comps</xpath>
+        <value>
+          <li Class="AnimalBehaviours.CompProperties_DigPeriodically">
+            <customThingToDig>
+              <li>RawFungus</li>
+            </customThingToDig>
+            <customAmountToDig>
+              <li>10</li>
+            </customAmountToDig>
+            <ticksToDig>60000</ticksToDig>
+            <onlyWhenTamed>true</onlyWhenTamed>
+          </li>
+        </value>
+      </match>
+      <nomatch Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="BerkshirePig"]</xpath>
+        <value>
+          <comps>
+            <li Class="AnimalBehaviours.CompProperties_DigPeriodically">
+              <customThingToDig>
+                <li>RawFungus</li>
+              </customThingToDig>
+              <customAmountToDig>
+                <li>10</li>
+              </customAmountToDig>
+              <ticksToDig>60000</ticksToDig>
+              <onlyWhenTamed>true</onlyWhenTamed>
+            </li>
+          </comps>
+        </value>
+      </nomatch>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThingDef[defName="DairyPig"]</xpath>
+    <success>Always</success>
+    <match Class="PatchOperationConditional">
+      <xpath>/Defs/ThingDef[defName="DairyPig"]/comps</xpath>
+      <match Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="DairyPig"]/comps</xpath>
+        <value>
+          <li Class="AnimalBehaviours.CompProperties_DigPeriodically">
+            <customThingToDig>
+              <li>RawFungus</li>
+            </customThingToDig>
+            <customAmountToDig>
+              <li>10</li>
+            </customAmountToDig>
+            <ticksToDig>60000</ticksToDig>
+            <onlyWhenTamed>true</onlyWhenTamed>
+          </li>
+        </value>
+      </match>
+      <nomatch Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="DairyPig"]</xpath>
+        <value>
+          <comps>
+            <li Class="AnimalBehaviours.CompProperties_DigPeriodically">
+              <customThingToDig>
+                <li>RawFungus</li>
+              </customThingToDig>
+              <customAmountToDig>
+                <li>10</li>
+              </customAmountToDig>
+              <ticksToDig>60000</ticksToDig>
+              <onlyWhenTamed>true</onlyWhenTamed>
+            </li>
+          </comps>
+        </value>
+      </nomatch>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThingDef[defName="DurocPig"]</xpath>
+    <success>Always</success>
+    <match Class="PatchOperationConditional">
+      <xpath>/Defs/ThingDef[defName="DurocPig"]/comps</xpath>
+      <match Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="DurocPig"]/comps</xpath>
+        <value>
+          <li Class="AnimalBehaviours.CompProperties_DigPeriodically">
+            <customThingToDig>
+              <li>RawFungus</li>
+            </customThingToDig>
+            <customAmountToDig>
+              <li>10</li>
+            </customAmountToDig>
+            <ticksToDig>60000</ticksToDig>
+            <onlyWhenTamed>true</onlyWhenTamed>
+          </li>
+        </value>
+      </match>
+      <nomatch Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="DurocPig"]</xpath>
+        <value>
+          <comps>
+            <li Class="AnimalBehaviours.CompProperties_DigPeriodically">
+              <customThingToDig>
+                <li>RawFungus</li>
+              </customThingToDig>
+              <customAmountToDig>
+                <li>10</li>
+              </customAmountToDig>
+              <ticksToDig>60000</ticksToDig>
+              <onlyWhenTamed>true</onlyWhenTamed>
+            </li>
+          </comps>
+        </value>
+      </nomatch>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThingDef[defName="GloucestershirePig"]</xpath>
+    <success>Always</success>
+    <match Class="PatchOperationConditional">
+      <xpath>/Defs/ThingDef[defName="GloucestershirePig"]/comps</xpath>
+      <match Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="GloucestershirePig"]/comps</xpath>
+        <value>
+          <li Class="AnimalBehaviours.CompProperties_DigPeriodically">
+            <customThingToDig>
+              <li>RawFungus</li>
+            </customThingToDig>
+            <customAmountToDig>
+              <li>10</li>
+            </customAmountToDig>
+            <ticksToDig>60000</ticksToDig>
+            <onlyWhenTamed>true</onlyWhenTamed>
+          </li>
+        </value>
+      </match>
+      <nomatch Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="GloucestershirePig"]</xpath>
+        <value>
+          <comps>
+            <li Class="AnimalBehaviours.CompProperties_DigPeriodically">
+              <customThingToDig>
+                <li>RawFungus</li>
+              </customThingToDig>
+              <customAmountToDig>
+                <li>10</li>
+              </customAmountToDig>
+              <ticksToDig>60000</ticksToDig>
+              <onlyWhenTamed>true</onlyWhenTamed>
+            </li>
+          </comps>
+        </value>
+      </nomatch>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThingDef[defName="SaddlebackPig"]</xpath>
+    <success>Always</success>
+    <match Class="PatchOperationConditional">
+      <xpath>/Defs/ThingDef[defName="SaddlebackPig"]/comps</xpath>
+      <match Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="SaddlebackPig"]/comps</xpath>
+        <value>
+          <li Class="AnimalBehaviours.CompProperties_DigPeriodically">
+            <customThingToDig>
+              <li>RawFungus</li>
+            </customThingToDig>
+            <customAmountToDig>
+              <li>10</li>
+            </customAmountToDig>
+            <ticksToDig>60000</ticksToDig>
+            <onlyWhenTamed>true</onlyWhenTamed>
+          </li>
+        </value>
+      </match>
+      <nomatch Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="SaddlebackPig"]</xpath>
+        <value>
+          <comps>
+            <li Class="AnimalBehaviours.CompProperties_DigPeriodically">
+              <customThingToDig>
+                <li>RawFungus</li>
+              </customThingToDig>
+              <customAmountToDig>
+                <li>10</li>
+              </customAmountToDig>
+              <ticksToDig>60000</ticksToDig>
+              <onlyWhenTamed>true</onlyWhenTamed>
+            </li>
+          </comps>
+        </value>
+      </nomatch>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThingDef[defName="WoolyPig"]</xpath>
+    <success>Always</success>
+    <match Class="PatchOperationConditional">
+      <xpath>/Defs/ThingDef[defName="WoolyPig"]/comps</xpath>
+      <match Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="WoolyPig"]/comps</xpath>
+        <value>
+          <li Class="AnimalBehaviours.CompProperties_DigPeriodically">
+            <customThingToDig>
+              <li>RawFungus</li>
+            </customThingToDig>
+            <customAmountToDig>
+              <li>10</li>
+            </customAmountToDig>
+            <ticksToDig>60000</ticksToDig>
+            <onlyWhenTamed>true</onlyWhenTamed>
+          </li>
+        </value>
+      </match>
+      <nomatch Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="WoolyPig"]</xpath>
+        <value>
+          <comps>
+            <li Class="AnimalBehaviours.CompProperties_DigPeriodically">
+              <customThingToDig>
+                <li>RawFungus</li>
+              </customThingToDig>
+              <customAmountToDig>
+                <li>10</li>
+              </customAmountToDig>
+              <ticksToDig>60000</ticksToDig>
+              <onlyWhenTamed>true</onlyWhenTamed>
+            </li>
+          </comps>
+        </value>
+      </nomatch>
+    </match>
+  </Operation>
 </Patch>

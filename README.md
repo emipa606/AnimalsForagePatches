@@ -1,6 +1,6 @@
 # AnimalsForagePatches
 
-![Image](https://i.imgur.com/WAEzk68.png)
+![Image](https://i.imgur.com/buuPQel.png)
 
 A collection of patches for https://steamcommunity.com/sharedfiles/filedetails/?id=2381741432]Animals Forage to add foraging for animals from other mods.
 
@@ -61,6 +61,8 @@ Foraging resources and animals supported:
 - Black Bear - https://steamcommunity.com/workshop/filedetails/?id=2208467668]AnimalCollabProj
 - Black Bear - https://steamcommunity.com/sharedfiles/filedetails/?id=2236973780]Westerado
 - Short-Faced Bear - https://steamcommunity.com/sharedfiles/filedetails/?id=1055485938]Megafauna
+- Megabear - https://steamcommunity.com/sharedfiles/filedetails/?id=2498162709]Weaponized Husbandry
+- Cave Bear - https://steamcommunity.com/sharedfiles/filedetails/?id=2576512001]Vanilla Animals Expanded — Caves
 
 
 ### Bones from https://steamcommunity.com/sharedfiles/filedetails/?id=1180573408]Rim of Madness - Bones
@@ -73,6 +75,7 @@ Foraging resources and animals supported:
 - Spotted Hyena, Striped Hyena - https://steamcommunity.com/sharedfiles/filedetails/?id=2255067914]Hyena
 - Hyena - https://steamcommunity.com/sharedfiles/filedetails/?id=2196951034]HC_Animal_3
 - Hyena - https://steamcommunity.com/sharedfiles/filedetails/?id=1849183875]VAE - Desert
+- Hyena - https://steamcommunity.com/sharedfiles/filedetails/?id=2553700067]Medieval Overhaul
 - Coyote - https://steamcommunity.com/sharedfiles/filedetails/?id=2236973780]Westerado
 - Coyote - https://steamcommunity.com/sharedfiles/filedetails/?id=1836900626]VAE - Arid Shrubland
 - Arctic Coyote - https://steamcommunity.com/sharedfiles/filedetails/?id=1895364938]VAE - Boreal Forest
@@ -109,16 +112,7 @@ Foraging resources and animals supported:
 
 
 
-[table]
-	[tr]
-		[td]https://invite.gg/Mlie]![Image](https://i.imgur.com/zdzzBrc.png)
-[/td]
-		[td]https://github.com/emipa606/AnimalsForagePatches]![Image](https://i.imgur.com/kTkpTOE.png)
-[/td]
-	[/tr]
-[/table]
-
-![Image](https://i.imgur.com/Rs6T6cr.png)
+![Image](https://i.imgur.com/PwoNOj4.png)
 
 
 
