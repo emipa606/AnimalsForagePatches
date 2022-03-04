@@ -4,8 +4,6 @@
 
 A collection of patches for https://steamcommunity.com/sharedfiles/filedetails/?id=2381741432]Animals Forage to add foraging for animals from other mods.
 
-Foraging resources and animals supported:
-
 ### Fish
 
 
@@ -52,6 +50,7 @@ Foraging resources and animals supported:
 - Peccary - https://steamcommunity.com/workshop/filedetails/?id=2208467668]AnimalCollabProj
 - Giant Boars - https://steamcommunity.com/sharedfiles/filedetails/?id=2243330771]LotR - Dwarves
 - Daeodon - https://steamcommunity.com/sharedfiles/filedetails/?id=1055485938]Megafauna
+- Pigs-variants (When tame) - https://steamcommunity.com/sharedfiles/filedetails/?id=2070686241]Legacy Ark
 
 
 ### Berries
