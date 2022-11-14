@@ -14,8 +14,8 @@ A collection of patches for https://steamcommunity.com/sharedfiles/filedetails/?
 - Anaconda - https://steamcommunity.com/sharedfiles/filedetails/?id=2188840249]HC_Animal_2
 - Crocodile, Alligator - https://steamcommunity.com/sharedfiles/filedetails/?id=2207620932]HC_Animal_4
 - Mud Snake - https://steamcommunity.com/workshop/filedetails/?id=2070686241]Legacy Ark
-- Baryonyx, Spinosaurus, Pteranodon, Deinocheirus - https://steamcommunity.com/workshop/filedetails/?id=1136958577]Dinosauria
-- Baryonyx, Deinosuchus, Geosternbergia, Nyctosaurus, Pterodon, Sarcosuchus, Spinosaurus, Tanystropheus, Tupandactylus - https://steamcommunity.com/workshop/filedetails/?id=1419618659]Jurassic Rimworld
+- Dinosaurs - https://steamcommunity.com/workshop/filedetails/?id=1136958577]Dinosauria
+- Dinosaurs - https://steamcommunity.com/workshop/filedetails/?id=1419618659]Jurassic Rimworld
 - Otter - https://steamcommunity.com/sharedfiles/filedetails/?id=1895364938]VAE - Boreal Forest
 
 
@@ -40,7 +40,7 @@ A collection of patches for https://steamcommunity.com/sharedfiles/filedetails/?
 - Badger, Green Snake - https://steamcommunity.com/workshop/filedetails/?id=2070686241]Legacy Ark
 - Badger - https://steamcommunity.com/sharedfiles/filedetails/?id=2236973780]Westerado
 - Compsognathus - https://steamcommunity.com/workshop/filedetails/?id=1136958577]Dinosauria
-- Archaeopteryx, Beelzebufo, Compsognathus, Hylonomus, Hynerpeton, Platyhystrix, Rhamphorhynchus - https://steamcommunity.com/workshop/filedetails/?id=1419618659]Jurassic Rimworld
+- Dinosaurs - https://steamcommunity.com/workshop/filedetails/?id=1419618659]Jurassic Rimworld
 
 
 ### Fungus
@@ -83,8 +83,8 @@ A collection of patches for https://steamcommunity.com/sharedfiles/filedetails/?
 - Dinocrocuta - https://steamcommunity.com/sharedfiles/filedetails/?id=1055485938]Megafauna
 - Megawolverine - https://steamcommunity.com/sharedfiles/filedetails/?id=1895364585]VAE - Tundra
 - American Possum - https://steamcommunity.com/sharedfiles/filedetails/?id=2260426720]American Possum
-- Quetzalcoatlus, Carnotaurus, Tyrannosaurus Rex, Yutyrannus, Allosaurus - https://steamcommunity.com/workshop/filedetails/?id=1136958577]Dinosauria
-- Albertosaurus, Allosaurus, Becklespinax, Carnotaurus, Ceratosaurus, Giganotosaurus, Metriacanthosaurus, Quetzalcoatlus, Rajasaurus, Tyrannosaurus Rex, Yangchuanosaurus, Yutyrannus - https://steamcommunity.com/workshop/filedetails/?id=1419618659]Jurassic Rimworld
+- Dinosaurs - https://steamcommunity.com/workshop/filedetails/?id=1136958577]Dinosauria
+- Dinosaurs - https://steamcommunity.com/workshop/filedetails/?id=1419618659]Jurassic Rimworld
 
 
 ### Rat Meat
@@ -93,7 +93,7 @@ A collection of patches for https://steamcommunity.com/sharedfiles/filedetails/?
 
 - Rattlesnake - https://steamcommunity.com/sharedfiles/filedetails/?id=2236973780]Westerado
 - Adders, Black Desert Cobras - https://steamcommunity.com/sharedfiles/filedetails/?id=1430501911]Infectious Creatures
-- Copperhead, Coral Snake, Cottonmouth, Timber Rattler, Red Rattler, Scarlet King Snake, Yellow Viper - https://steamcommunity.com/workshop/filedetails/?id=2070686241]Legacy Ark
+- Snakes - https://steamcommunity.com/workshop/filedetails/?id=2070686241]Legacy Ark
 
 
 ### Capybara Meat
@@ -110,6 +110,8 @@ A collection of patches for https://steamcommunity.com/sharedfiles/filedetails/?
 - Titanoboa - https://steamcommunity.com/sharedfiles/filedetails/?id=1055485938]Megafauna
 
 
+
+- From 1.4 also added all Vanilla Animals Expanded patches removed from the main mod
 
 ![Image](https://i.imgur.com/PwoNOj4.png)
 
