@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThingDef[defName="Adder"]</xpath>
+    <success>Always</success>
+    <match Class="PatchOperationConditional">
+      <xpath>/Defs/ThingDef[defName="Adder"]/comps</xpath>
+      <match Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="Adder"]/comps</xpath>
+        <value>
+          <li Class="AnimalBehaviours.CompProperties_DigWhenHungry">
+            <customThingToDig>Meat_Rat</customThingToDig>
+            <customAmountToDig>5</customAmountToDig>
+          </li>
+        </value>
+      </match>
+      <nomatch Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="Adder"]</xpath>
+        <value>
+          <comps>
+            <li Class="AnimalBehaviours.CompProperties_DigWhenHungry">
+              <customThingToDig>Meat_Rat</customThingToDig>
+              <customAmountToDig>5</customAmountToDig>
+            </li>
+          </comps>
+        </value>
+      </nomatch>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThingDef[defName="BlackDesertCobra"]</xpath>
+    <success>Always</success>
+    <match Class="PatchOperationConditional">
+      <xpath>/Defs/ThingDef[defName="BlackDesertCobra"]/comps</xpath>
+      <match Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="BlackDesertCobra"]/comps</xpath>
+        <value>
+          <li Class="AnimalBehaviours.CompProperties_DigWhenHungry">
+            <customThingToDig>Meat_Rat</customThingToDig>
+            <customAmountToDig>5</customAmountToDig>
+          </li>
+        </value>
+      </match>
+      <nomatch Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="BlackDesertCobra"]</xpath>
+        <value>
+          <comps>
+            <li Class="AnimalBehaviours.CompProperties_DigWhenHungry">
+              <customThingToDig>Meat_Rat</customThingToDig>
+              <customAmountToDig>5</customAmountToDig>
+            </li>
+          </comps>
+        </value>
+      </nomatch>
+    </match>
+  </Operation>
+</Patch>
