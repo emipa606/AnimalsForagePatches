@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-  <name>Animals Forage - Patches</name>
+  <name>[Deprecated] Animals Forage - Patches</name>
   <packageId>Mlie.AnimalsForagePatches</packageId>
   <author>Mlie</author>
   <url>https://github.com/emipa606/AnimalsForagePatches</url>
@@ -27,8 +27,8 @@
     <li>Simmin.AnimalsForage</li>
     <li>Neronix17.Outland.Core</li>
   </loadAfter>
-  <description>[img]https://i.imgur.com/iCj5o7O.png[/img]
-A collection of patches for [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2381741432]Animals Forage[/url] to add foraging for animals from other mods.
+  <description>[img]https://img.litet.net/logos/Self-Info.png[/img]
+Patches for [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2381741432]Animals Forage[/url]
 
 [h3]Fish[/h3]
 [list]
@@ -105,35 +105,33 @@ A collection of patches for [url=https://steamcommunity.com/sharedfiles/filedeta
 [list]
 [*]Dinilysia, Gigantophis, Wonambi, Yurlunggur - [url=https://steamcommunity.com/workshop/filedetails/?id=1419618659]Jurassic Rimworld[/url]
 [/list]
-[h3]Josephoartigasia Meat from [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1055485938]Megafauna[/url][/h3]
+[h3]Josephoartigasia Meat from Megafauna[/h3]
 [list]
 [*]Titanoboa - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1055485938]Megafauna[/url]
 [/list]
 
-- From 1.4 also added all Vanilla Animals Expanded patches removed from the main mod
-
 [table]
 	[tr]
-		[td][url=https://dsc.gg/mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
-		[td][url=https://github.com/emipa606/AnimalsForagePatches][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
+		[td][url=https://discord.gg/h5TY6DA][img]https://img.litet.net/logos/Discord.png[/img][/url][/td]
+		[td][url=https://github.com/emipa606/AnimalsForagePatches][img]https://img.litet.net/logos/Github.png[/img][/url][/td]
 	[/tr]
     [tr]
-        [td][img]https://i.imgur.com/WjDSfUn.png[/img][/td]
-        [td][img]https://i.imgur.com/h5VwTNL.png[/img][/td]
+        [td][img]https://img.litet.net/logos/SafeToAdd.png[/img][/td]
+        [td][img]https://img.litet.net/logos/SafeToRemove.png[/img][/td]
     [/tr]
 [/table]
 
-[img]https://i.imgur.com/5xwDG6H.png[/img]
+[img]https://img.litet.net/logos/Self-ReportingIssues.png[/img]
 [list]
 [*] See if the the error persists if you just have this mod and its requirements active.
 [*] If not, try adding your other mods until it happens again.
-[*] Post your error-log using [url=https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib[/url] or the standalone [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Uploader[/url] and command Ctrl+F12
+[*] Always post your log using the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Log Uploader[/url]
 [*] For best support, please use the Discord-channel for error-reporting.
 [*] Do not report errors by making a discussion-thread, I get no notification of that.
 [*] If you have the solution for a problem, please post it to the GitHub repository.
 [*] Use [url=https://github.com/RimSort/RimSort/releases/latest]RimSort[/url] to sort your mods
-[/list]
+[/list] 
 
 [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2384304724][img]https://img.shields.io/github/v/release/emipa606/AnimalsForagePatches?label=latest%20version&amp;style=plastic&amp;labelColor=0070cd&amp;color=white[/img][/url]</description>
-  <modVersion IgnoreIfNoMatchingField="True">1.5.0</modVersion>
+  <modVersion IgnoreIfNoMatchingField="True">1.5.1</modVersion>
 </ModMetaData>

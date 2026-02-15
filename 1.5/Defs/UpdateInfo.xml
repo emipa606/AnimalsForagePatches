@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<TabulaRasa.UpdateDef Abstract="true" Name="AnimalsForagePatches_UpdateInfoBase">
+		<linkUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2384304724</linkUrl>
+		<banner>UpdateInfo/AnimalsForagePatches</banner>
+	</TabulaRasa.UpdateDef>
+	<TabulaRasa.UpdateDef ParentName="AnimalsForagePatches_UpdateInfoBase" MayRequire="neronix17.toolbox">
+		<defName>AnimalsForagePatches_1_5_0</defName>
+		<date>2026/2/15</date>
+		<content>This mod will not be further updated, please use Animals Forage (Continued) by Mlie instead.</content>
+	</TabulaRasa.UpdateDef>
+</Defs>
+
